@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+!wavelet_fractal_analysis.ipynb   # exclude only the main notebook if you want, but better to keep all? Actually we want to track the notebook. So we exclude only checkpoints.
+# But to be safe: keep all .ipynb except checkpoints. Already .ipynb_checkpoints/ handles it.
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Data files (if any)
+*.npy
+*.pkl
+*.h5
+*.mat
+
+# Output figures (optional, if you want to ignore generated images)
+*.png
+*.jpg
+*.pdf
+!README.md   # ensure README is tracked
+
+# Environment / secret files
+.env
+*.key
+*.pem
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
